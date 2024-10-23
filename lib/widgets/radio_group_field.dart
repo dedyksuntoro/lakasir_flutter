@@ -40,7 +40,7 @@ class _MyRadioGroupState extends State<MyRadioGroup> {
                 margin: const EdgeInsets.only(right: 10),
                 child: Radio<String>(
                   toggleable: true,
-                  fillColor: MaterialStateProperty.all(primary),
+                  fillColor: WidgetStateProperty.all(primary),
                   value: option.value,
                   groupValue: selectedValue,
                   onChanged: (value) {

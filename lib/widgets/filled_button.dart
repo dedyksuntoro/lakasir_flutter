@@ -28,8 +28,8 @@ class _MyFilledButton extends State<MyFilledButton> {
       child: FilledButton(
         onPressed: widget.onPressed,
         style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all<Color>(widget.color!),
-          shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+          backgroundColor: WidgetStateProperty.all<Color>(widget.color!),
+          shape: WidgetStateProperty.all<RoundedRectangleBorder>(
             const RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(12)),
             ),

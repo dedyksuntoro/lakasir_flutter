@@ -204,7 +204,7 @@ class Messages extends Translations {
           'agreement_sentence':
               'By creating the shop, you agree to our Terms and Conditions',
           'please_fill_form': 'Please fill the form correctly',
-          'info_domain': 'Example: yourshopname.lakasir.com',
+          'info_domain': 'Example: yourshopname.nipstudio.id',
           'sign_up': 'Sign Up',
           'sign_in': 'Sign In',
           'field_domain_name': 'Domain Name',
@@ -487,7 +487,7 @@ class Messages extends Translations {
           'agreement_sentence':
               'Dengan membuat toko, anda setuju dengan Syarat dan Ketentuan kami',
           'please_fill_form': 'Isi form dengan benar',
-          'info_domain': 'Contoh: nama-toko.lakasir.com',
+          'info_domain': 'Contoh: nama-toko.nipstudio.id',
           'sign_up': 'Dafar',
           'sign_in': 'Masuk',
           'field_domain_name': 'Nama Domain',

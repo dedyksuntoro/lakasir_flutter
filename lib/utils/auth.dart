@@ -1,3 +1,4 @@
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:lakasir/config/app.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -16,6 +17,7 @@ Future<String> checkAuthentication() async {
 }
 
 Future<void> logout() async {
+  await FirebaseMessaging.instance.deleteToken();
   final prefs = await SharedPreferences.getInstance();
   await prefs.remove('token');
   await prefs.remove('permissions');

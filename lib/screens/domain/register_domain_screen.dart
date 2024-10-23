@@ -62,7 +62,7 @@ class _RegisterDomainScreenState extends State<RegisterDomainScreen> {
         'api/domain/register',
         {
           "full_name": fullNameController.text,
-          "domain": "${domainNameController.text}.lakasir.com",
+          "domain": "${domainNameController.text}.nipstudio.id",
           "email": emailOrPhoneController.text,
           "password": passwordController.text,
           "password_confirmation": passwordConfirmationController.text,
@@ -208,7 +208,7 @@ class _RegisterDomainScreenState extends State<RegisterDomainScreen> {
                           environment == "local" ? "http://" : "https://",
                       info: "info_domain".tr,
                       label: "field_domain_name".tr,
-                      suffixText: ".lakasir.com",
+                      suffixText: ".nipstudio.id",
                       mandatory: true,
                     ),
                   ),

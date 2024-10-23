@@ -22,7 +22,7 @@ class _SetupScreenState extends State<SetupScreen> {
   int touchedTimes = 0;
   bool isLoading = false;
   String domainError = "";
-  String baseDomain = ".lakasir.com";
+  String baseDomain = ".nipstudio.id";
 
   @override
   void dispose() {
